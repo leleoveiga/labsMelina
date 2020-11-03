@@ -1,13 +1,12 @@
 package formatacaoTexto;
 
 import formatos.*;
-
 import java.util.HashMap;
 import java.util.Map;
 
 public class Fabrica {
 
-    Map<Integer, TipoFormatacao> tipos;
+    private Map<Integer, TipoFormatacao> tipos;
 
     public Fabrica() {
         tipos = new HashMap<>();
@@ -24,5 +23,4 @@ public class Fabrica {
     public Map getMapaTipos() {
         return tipos;
     }
-
 }

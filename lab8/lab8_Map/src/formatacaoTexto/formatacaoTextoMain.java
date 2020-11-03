@@ -1,9 +1,7 @@
 package formatacaoTexto;
 
-import formatos.Italico;
 import formatos.TipoFormatacao;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -15,7 +13,6 @@ public class formatacaoTextoMain {
 
         System.out.println("Digite o texto a ser formatado");
         String texto = sc.nextLine();
-
         while (true) {
             for (TipoFormatacao formato : tipos.values()) {
                 System.out.println(formato.getTipo());
