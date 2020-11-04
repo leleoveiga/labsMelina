@@ -7,7 +7,7 @@ public class Maiusculo implements TipoFormatacao {
     }
 
     @Override
-    public String getTipo() {
+    public String getTipoEnumerado() {
         return "3 - Caixa Maiúsculo";
     }
 }

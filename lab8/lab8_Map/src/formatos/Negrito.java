@@ -5,7 +5,7 @@ public class Negrito implements TipoFormatacao {
     public String formatar(String texto) {
         return "\033[1m" + texto + "\033[0m";
     }
-    public String getTipo() {
+    public String getTipoEnumerado() {
         return "1 - Caixa Negrito";
     }
 }

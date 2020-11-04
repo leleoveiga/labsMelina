@@ -7,7 +7,7 @@ public class Italico implements TipoFormatacao{
     }
 
     @Override
-    public String getTipo() {
+    public String getTipoEnumerado() {
         return "2 - Caixa Itálico";
     }
 }

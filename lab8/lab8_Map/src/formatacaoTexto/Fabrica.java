@@ -20,7 +20,7 @@ public class Fabrica {
         return tipos.get(tipo);
     }
 
-    public Map getMapaTipos() {
+    public Map<Integer, TipoFormatacao> getMapaTipos() {
         return tipos;
     }
 }

@@ -15,7 +15,7 @@ public class formatacaoTextoMain {
         String texto = sc.nextLine();
         while (true) {
             for (TipoFormatacao formato : tipos.values()) {
-                System.out.println(formato.getTipo());
+                System.out.println(formato.getTipoEnumerado());
             }
             int tipo = sc.nextInt();
             try {

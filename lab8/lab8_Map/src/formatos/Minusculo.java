@@ -7,7 +7,7 @@ public class Minusculo implements TipoFormatacao {
     }
 
     @Override
-    public String getTipo() {
+    public String getTipoEnumerado() {
         return "4 - Caixa Minúsculo";
     }
 }
