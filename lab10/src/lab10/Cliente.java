@@ -1,19 +1,21 @@
 package lab10;
+
 public class Cliente {
 	public static void main(String[] args) {
-	    Mario mario = new Mario();
-	    try {
-		    mario.pegarCogumelo();
+		Mario mario = new Mario();
+		try {
+			mario.pegarFlor();
+			mario.pegarCogumelo();
+			mario.levarDano();
+			mario.pegarFlor();
+			mario.pegarFlor();
+			mario.levarDano();
+			mario.levarDano();
+			mario.levarDano();
 		    mario.levarDano();
-		    mario.pegarFlor();
-		    mario.pegarFlor();
-		    mario.levarDano();
-		    mario.levarDano();
-		    mario.levarDano();
-		    mario.levarDano();
-		    mario.levarDano();
-	    } catch(Exception e) {
-	    		System.out.println("Acabou o jogo");
-	    }
+		} catch(Exception e) {
+			System.out.println("Acabou o jogo");
+		}
 	}
 }
+
